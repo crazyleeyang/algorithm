@@ -1,4 +1,4 @@
-func binary_search(a []int, b int)(ok bool, idx int){
+func binarySearch(a []int, b int)(ok bool, idx int){
     l := len(a)
     if l == 0{ return }
 
